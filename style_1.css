@@ -1,0 +1,337 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway", serif;
+    color: rgb(104, 103, 103);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: inline-block;
+
+}
+
+.container {
+    max-width: 680px;
+    padding: 1px 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    padding: 30px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0;
+}
+
+.menu-item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./сайт/billboard.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.klick {
+    display: inline-block;
+    background: palevioletred;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 40px;
+    border: none;
+    font-family: "Raleway", serif;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    display: inline-block;
+    max-width: 350px;
+    text-align: center;
+    font-size: 15px;
+    margin: 100px 0;
+}
+
+.d {
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.klick2 {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background: palevioletred;
+    color: white;
+    border: none;
+    font-family: "Raleway", serif;
+    font-size: 15px;
+
+}
+
+.menu2 {
+    color: gray;
+    padding-left: 0;
+
+}
+
+footer {
+    text-align: center;
+    background: rgb(47, 79, 79);
+    padding: 15px;
+}
+
+.paragraph {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.div2 .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-item p {
+    border: 1px solid rgb(228, 211, 211);
+    padding: 30px;
+    border-bottom: 0;
+    margin: 0;
+}
+
+.team-item div {
+    padding: 30px;
+    background: url(./сайт/testimonials_arrow.png) no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+.team-item {
+    text-align: center;
+
+}
+
+.brands {
+    padding: 20px 0;
+    margin: 100px;
+}
+
+.brands .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 54px;
+}
+
+.cards .container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+.cards {
+    margin: 100px;
+}
+
+.cards-item {
+    display: flex;
+    gap: 45px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.sign-up {
+    text-align: center;
+    margin: 80px;
+
+
+}
+
+.buttom-service {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+@media screen and (min-width:320px) and (max-width: 640px) {
+    .container {
+        max-width: 320px;
+        text-align: center;
+    }
+
+
+    .header {
+        padding: 20px 0;
+    }
+
+
+
+    .hero-text {
+        margin-top: 0;
+    }
+
+    .hero-btn {
+        display: block;
+        margin: auto;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .services .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .team .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .team-item {
+        width: 100%;
+        text-align: center;
+    }
+    .cards {
+        margin: 0;
+        
+    }
+
+    .cards-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sign-up {
+        margin: 0;
+    }
+    .sign-up .container {
+        padding: 20px;
+    }
+    .brands {
+        margin: 0;
+       
+    }
+
+    .brands .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-logo {
+        width: 60px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .menu-list {
+        display: inline-block;
+        margin-left: 25px;
+    }
+    .menu-item {
+        margin-left: 0;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 10px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+    footer h5 {
+        margin-bottom: 0;
+    }
+
+
+
+}
